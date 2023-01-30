@@ -22,7 +22,7 @@ void ArrayOddNumSum(int[] array)
             sum = sum + array[i];
         }
     }
-    System.Console.WriteLine(sum);
+    System.Console.WriteLine($"Сумма элементов с нечетным индексом: {sum}");
 }
 
 
